@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <!-- <script src="script.js"></script> 
+        html 파일을 인식하기 전에 javascript 코드를 실행하기 때문에 실행안됨-->
+    <script>
+    window.onload = function(){
+        var b = document.getElementById("b");
+        b.addEventListener("click", function(){
+            alert("click");
+        });
+    }
+    </script>
+</head>
+<body>
+    <input type="button" id="b" value="click"/>
+</body>
+</html>
